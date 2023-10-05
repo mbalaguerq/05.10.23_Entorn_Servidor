@@ -1,0 +1,7 @@
+En confirmación con lo visto en clase e incluso partiendo desde el ejemplo publicado ayer en este Classroom.
+Hacer ese INICIO DE SESSION con sólo un php, usando supervariables de session, y añadir un botón para CERRAR SESSION.
+
+Pistas:
+- se puede “cerrar” enviando al mismo PHP una superglobal GET con otro formulario o usando enlace del tipo href=“./?logout” y comprobar si existe esa superglobal $_GET[“logout”]
+
+- se puede eliminar la superglobal de varias maneras, por ejemplo session_destroy();
