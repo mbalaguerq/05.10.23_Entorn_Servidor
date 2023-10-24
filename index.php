@@ -35,8 +35,7 @@
 	</header>
 
 
-
-		<!Si el nom està escrit al requadre, mostrarà Benvingut+nom>
+		<!--Si el nom està escrit al requadre, mostrarà Benvingut+nom-->
 		<h1>Bienvenido <?= $_SESSION["n"] ?></h1>
 	
 		<!si no, el recollirà amb un miss. introdueix el teu nom>
@@ -44,7 +43,7 @@
 		<form class="container text-center" method="post" action=".">
 			Iniciar sesion: 
 			<input class="form-control" type="text" name="nombre" placeholder="usuario" >
-			<input class="m-2 btn btn-primary" type="submit" value="iniciar" >
+			<input class="m-2 btn btn-primary" type="submit" value="enviar" >
 		</form>
 	<?php } ?>
 
